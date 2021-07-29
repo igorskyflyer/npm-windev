@@ -37,6 +37,8 @@ Checks whether the given directory or file name is a legacy Windows device.
 <br>
 
 ```js
+const { isWindowsDevice } = require('@igor.dvlpr/windev')
+
 console.log(isWindowsDevice()) // prints false
 console.log(isWindowsDevice('')) // prints false
 console.log(isWindowsDevice('con')) // prints true
