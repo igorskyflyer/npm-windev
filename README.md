@@ -29,3 +29,20 @@ function isWindowsDevice(name: string) => boolean
 ```
 
 Checks whether the given directory or file name is a legacy Windows device.
+
+<br>
+
+### Examples
+
+<br>
+
+```js
+console.log(isWindowsDevice()) // prints false
+console.log(isWindowsDevice('')) // prints false
+console.log(isWindowsDevice('con')) // prints true
+console.log(isWindowsDevice('con.txt')) // prints true
+console.log(isWindowsDevice('cOm3')) // prints true
+console.log(isWindowsDevice('COM7 ')) // prints true
+console.log(isWindowsDevice(' COM2 .txt.al')) // prints true
+console.log('CONnection')) // prints false
+```
