@@ -46,5 +46,5 @@ console.log(isWindowsDevice('con.txt')) // prints true
 console.log(isWindowsDevice('cOm3')) // prints true
 console.log(isWindowsDevice('COM7 ')) // prints true
 console.log(isWindowsDevice(' COM2 .txt.al')) // prints true
-console.log('CONnection')) // prints false
+console.log(isWindowsDevice('CONnection')) // prints false
 ```
