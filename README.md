@@ -1,6 +1,6 @@
 # \\\\.\\WinDev
 
-🎡 Provides ways of checking whether a path is a legacy Windows device. 💾
+🍃 Provides ways of checking whether a path is a legacy Windows device. 💾
 
 <br>
 
