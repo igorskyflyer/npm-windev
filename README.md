@@ -12,6 +12,12 @@ When creating files or folders on Windows there are some rules about naming them
 
 <p align="right"><sub>source: <a href="https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file?redirectedfrom=MSDN#Naming_Conventions">Microsot Docs</a></sub></p>
 
+<br>
+
+Be aware that there are some edge-cases that this module also handles, examples #4 and #7 illustrate that. Technically the provided strings in those two examples are not legacy devices but you are still not allowed to create files/directories with those names.
+
+<br>
+
 ### Usage
 
 Install it by running
