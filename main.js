@@ -4,7 +4,7 @@
  * @param {string} name
  * @returns {boolean}
  */
-function isWindowsDevice(name) {
+export function isWindowsDevice(name) {
   if (typeof name !== 'string') {
     return false
   }
@@ -17,8 +17,4 @@ function isWindowsDevice(name) {
   )
 
   return winDevicesMatcher.test(name)
-}
-
-module.exports = {
-  isWindowsDevice,
 }
