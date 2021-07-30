@@ -1,8 +1,9 @@
 {
 	"name": "@igor.dvlpr/windev",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "🍃 Provides ways of checking whether a path is a legacy Windows device. 💾",
 	"main": "main.js",
+	"type": "module",
 	"files": [
 		"main.js",
 		"dist"
