@@ -1,5 +1,5 @@
-const chai = require('chai').assert
-const { isWindowsDevice } = require('../main')
+import { assert as chai } from 'chai'
+import { isWindowsDevice } from '../main.js'
 
 describe('🧪 WinDev tests 🧪', () => {
   it('#1 should return false', () => {
