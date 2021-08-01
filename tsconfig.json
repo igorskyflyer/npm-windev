@@ -4,7 +4,7 @@
 		"declaration": true,
 		"emitDeclarationOnly": true,
 		"declarationDir": "dist/types",
-		"skipLibCheck": true
+		"types": []
 	},
 	"include": [
 		"src/**/*"
