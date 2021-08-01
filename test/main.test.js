@@ -1,5 +1,5 @@
 const assert = require('chai').assert
-const { isWindowsDevice } = require('../main')
+const { isWindowsDevice } = require('../dist/cjs/main')
 
 describe('🧪 WinDev tests 🧪', () => {
   it('#1 should return false', () => {

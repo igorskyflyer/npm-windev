@@ -4,6 +4,14 @@
 
 <br>
 
+> 💃 Since `v.1.1.0` this package provides both a CommonJS module and an ES module, thanks to [`Modern Module`](https://github.com/igorskyflyer/npm-modern-module).
+>
+> What do you need to do to use one or the other?
+>
+> Nothing. If you need a CommonJS module `require` it, if you need an ES module `import` it instead. Simple, right?
+
+<br>
+
 When creating files or folders on Windows there are some rules about naming them, one of which is that te usage of legacy Windows devices' names as the folder/file name is prohibited, i.e.:
 
 > “Do not use the following reserved names for the name of a file:
