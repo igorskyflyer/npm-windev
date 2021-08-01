@@ -3,9 +3,14 @@
 		"allowJs": true,
 		"declaration": true,
 		"emitDeclarationOnly": true,
-		"declarationDir": "dist/types"
+		"declarationDir": "dist/types",
+		"skipLibCheck": true
 	},
 	"include": [
-		"src/"
+		"src/**/*"
 	],
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts"
+	]
 }
