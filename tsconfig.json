@@ -6,6 +6,6 @@
 		"declarationDir": "dist/types"
 	},
 	"include": [
-		"dist/cjs"
-	]
+		"src/"
+	],
 }
