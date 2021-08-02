@@ -1,10 +1,11 @@
 {
 	"compilerOptions": {
 		"allowJs": true,
+		"checkJs": true, // disable this if you don't want JS type-checking
 		"declaration": true,
 		"emitDeclarationOnly": true,
 		"declarationDir": "dist/types",
-		"types": []
+		"skipLibCheck": true
 	},
 	"include": [
 		"src/**/*"
