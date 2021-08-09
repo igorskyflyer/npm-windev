@@ -1,3 +1,3 @@
-import { isWindowsDevice } from './index'
+import { isWindowsDevice } from './index.js'
 
 export { isWindowsDevice }
