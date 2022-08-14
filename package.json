@@ -1,6 +1,6 @@
 {
 	"name": "@igor.dvlpr/windev",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"description": "🍃 Provides ways of checking whether a path is a legacy Windows device. 💾",
 	"sideEffects": false,
 	"main": "./src/index",
@@ -39,10 +39,10 @@
 	},
 	"homepage": "https://github.com/igorskyflyer/npm-windev#readme",
 	"devDependencies": {
-		"@types/chai": "^4.2.21",
-		"@types/mocha": "^9.0.0",
-		"chai": "^4.3.4",
-		"mocha": "^9.0.3",
-		"typescript": "^4.3.5"
+		"@types/chai": "^4.3.3",
+		"@types/mocha": "^9.1.1",
+		"chai": "^4.3.6",
+		"mocha": "^10.0.0",
+		"typescript": "^4.7.4"
 	}
 }
