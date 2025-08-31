@@ -86,7 +86,7 @@ npm i @igorskyflyer/windev
 ## 🤹🏼 API
 
 ```ts
-function isWindowsDevice(name: string) => boolean
+function isWindowsDevice(name: string): boolean
 ```
 
 Checks whether the given directory or file name is a legacy Windows device.
