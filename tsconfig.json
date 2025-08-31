@@ -1,17 +1,21 @@
 {
-	"compilerOptions": {
-		"allowJs": true,
-		"checkJs": true, // disable this if you don't want JS type-checking
-		"declaration": true,
-		"emitDeclarationOnly": true,
-		"declarationDir": "dist",
-		"skipLibCheck": true
-	},
-	"include": [
-		"src/**/*"
-	],
-	"exclude": [
-		"node_modules",
-		"**/*.spec.ts"
-	]
+    "include": ["src/**/*"],
+    "exclude": ["node_modules/**/*", "test/**/*", "dist/**/*"],
+    "compilerOptions": {
+        "target": "ES2023",
+        "lib": ["ES2023"],
+        "module": "NodeNext",
+        "moduleResolution": "nodenext",
+        "declaration": true,
+        "outDir": "./dist",
+        "declarationDir": "./dist",
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmitOnError": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true
+    }
 }
