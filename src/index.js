@@ -1,3 +1,8 @@
+// find out more here,
+// https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions
+const WIN_DEVICES =
+  /^\s*(?:CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])\s*(?:\.[^.]*)*\s*$/i
+
 /**
  * Checks whether the given directory
  * or file name is a legacy Windows device.
@@ -9,14 +14,7 @@ function isWindowsDevice(name) {
     return false
   }
 
-  // find out more here,
-  // https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions
-  const winDevicesMatcher = new RegExp(
-    '^\\s*(?:CON|PRN|AUX|NUL|COM1|COM2|COM3|COM4|COM5|COM6|COM7|COM8|COM9|LPT1|LPT2|LPT3|LPT4|LPT5|LPT6|LPT7|LPT8|LPT9)\\s*(?:\\.{1}[^\\.]*)*\\s*$',
-    'i'
-  )
-
-  return winDevicesMatcher.test(name)
+  return WIN_DEVICES.test(name)
 }
 
 module.exports = { isWindowsDevice }
